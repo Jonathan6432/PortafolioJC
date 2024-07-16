@@ -378,7 +378,7 @@ img {
     50deg,
     #242121 60%,
     rgba(70, 153, 150, 0.7)),
-    url(/imagenes/fondo.png);
+    url(../imagenes/fondo.png);
     min-height: 100vh;
     z-index: 10;
 }
