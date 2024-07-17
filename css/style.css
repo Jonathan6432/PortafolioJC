@@ -537,6 +537,7 @@ img {
 
 .Ctn-Interes p{
   font-size: 20px;
+  width: 100%;
 }
 
 .Ctn-Interes .ctn-imgIn {
@@ -559,7 +560,7 @@ img {
   height: 30vh;
 }
 .slider {
-  width: 90vh;
+  max-width: 50vw;
   height: auto;
   margin: auto;
   overflow: hidden;
@@ -614,7 +615,6 @@ img {
   display: flex;
   flex-direction:column;
   gap:5px;
-
   border-radius:20px;
   text-align: left;
   box-shadow: 0 0 20px var(--main-color);

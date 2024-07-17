@@ -9,14 +9,4 @@ logoHam.addEventListener('click', () =>{
     ListH.classList.toggle('block');
 })
 
-alert.addEventListener('click', () => {
-    alert('El formulario ha sido enviado correctamente');
-});
-
-
-
-function iniciarDescarga() {
-    var enlace = document.getElementById('descargarArchivo');
-    enlace.click(); // Simula un clic en el enlace para iniciar la descarga
-}
 
